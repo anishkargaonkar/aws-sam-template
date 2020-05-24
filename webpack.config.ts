@@ -3,8 +3,8 @@ import { Configuration } from 'webpack';
 
 const config: Configuration = {
 	entry: {
-		hello: './src/handlers/hello.ts',
-		goodbye: './src/handlers/goodbye.ts',
+		hello: './src/handlers/hello/hello.ts',
+		goodbye: './src/handlers/goodbye/goodbye.ts',
 	},
 	output: {
 		filename: '[name].js',
